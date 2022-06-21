@@ -1,7 +1,7 @@
 FROM alpine:3.7
 
-ENV HELM_LATEST_VERSION v3.0.0
-ENV KUBE_LATEST_VERSION v1.15.0
+ENV HELM_LATEST_VERSION v3.0.2
+ENV KUBE_LATEST_VERSION v1.22.0
 
 RUN apk add -U ca-certificates git curl && \
     apk add -U -t deps curl && \
